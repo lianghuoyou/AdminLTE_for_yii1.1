@@ -1,0 +1,2314 @@
+2018/10/15 12:18:40 [error] [php] Use of undefined constant CSS_URL - assumed 'CSS_URL' (C:\wnmp\www\demo\cms\protected\views\site\index.php:6)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wnmp\www\demo\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wnmp\www\demo\cms\protected\controllers\SiteController.php(33): SiteController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\wnmp\www\demo\cms\protected\views\site\index.php (6)
+in C:\wnmp\www\demo\cms\protected\controllers\SiteController.php (33)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/15 13:40:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "houtai/goods/index". in C:\wnmp\www\demo\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#1 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:41:09 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:42:10 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:42:11 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:42:11 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:42:11 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:42:36 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:42:36 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:42:36 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:42:37 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:42:37 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:42:37 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:42:37 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:42:37 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:42:37 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:45:09 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:45:10 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:45:10 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:45:10 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/15 13:45:10 [error] [exception.CException] CException: Alias "houtai.HoutaiModule" is invalid. Make sure it points to an existing PHP file and the file is readable. in C:\wnmp\www\demo\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+---
+2018/10/17 13:10:19 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/index
+---
+2018/10/17 13:30:09 [error] [exception.CException] CException: IndexController and its behaviors do not have a method or closure named "renderPartical". in C:\wnmp\www\demo\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\IndexController.php(17): CComponent->__call('renderPartical', Array)
+#1 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): IndexController->actionIndex()
+#2 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index')
+#7 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=houtai/index
+---
+2018/10/17 13:30:29 [error] [exception.CException] CException: IndexController and its behaviors do not have a method or closure named "renderPartical". in C:\wnmp\www\demo\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\IndexController.php(17): CComponent->__call('renderPartical', Array)
+#1 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): IndexController->actionIndex()
+#2 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index')
+#7 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=houtai/index
+---
+2018/10/17 13:30:30 [error] [exception.CException] CException: IndexController and its behaviors do not have a method or closure named "renderPartical". in C:\wnmp\www\demo\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\IndexController.php(17): CComponent->__call('renderPartical', Array)
+#1 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): IndexController->actionIndex()
+#2 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index')
+#7 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=houtai/index
+---
+2018/10/18 14:40:43 [error] [exception.ParseError] ParseError: syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in C:\wnmp\www\demo\cms\protected\modules\houtai\HoutaiModule.php:5
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('index/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/index
+---
+2018/10/18 14:43:35 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function CController::render(), 0 passed in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php on line 4 and at least 1 expected in C:\wnmp\www\demo\framework\web\CController.php:778
+Stack trace:
+#0 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(4): CController->render()
+#1 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#2 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods')
+#7 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=houtai/goods
+---
+2018/10/18 14:44:05 [error] [exception.CException] CException: GoodsController cannot find the requested view "index". in C:\wnmp\www\demo\framework\web\CController.php:878
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(4): CController->render('index')
+#2 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#3 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods')
+#8 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=houtai/goods
+---
+2018/10/18 14:44:05 [error] [exception.CException] CException: GoodsController cannot find the requested view "index". in C:\wnmp\www\demo\framework\web\CController.php:878
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(4): CController->render('index')
+#2 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#3 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods')
+#8 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=houtai/goods
+---
+2018/10/18 14:44:06 [error] [exception.CException] CException: GoodsController cannot find the requested view "index". in C:\wnmp\www\demo\framework\web\CController.php:878
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(4): CController->render('index')
+#2 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#3 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods')
+#8 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=houtai/goods
+---
+2018/10/18 14:44:06 [error] [exception.CException] CException: GoodsController cannot find the requested view "index". in C:\wnmp\www\demo\framework\web\CController.php:878
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(4): CController->render('index')
+#2 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#3 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods')
+#8 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=houtai/goods
+---
+2018/10/18 14:44:06 [error] [exception.CException] CException: GoodsController cannot find the requested view "index". in C:\wnmp\www\demo\framework\web\CController.php:878
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(4): CController->render('index')
+#2 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#3 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods')
+#8 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=houtai/goods
+---
+2018/10/18 14:46:58 [error] [exception.ParseError] ParseError: syntax error, unexpected '}' in C:\wnmp\www\demo\cms\protected\modules\houtai\HoutaiModule.php:18
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods
+---
+2018/10/18 15:04:28 [error] [exception.ParseError] ParseError: syntax error, unexpected 'public' (T_PUBLIC) in C:\wnmp\www\demo\cms\protected\modules\houtai\HoutaiModule.php:8
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods
+---
+2018/10/18 15:04:30 [error] [exception.ParseError] ParseError: syntax error, unexpected 'public' (T_PUBLIC) in C:\wnmp\www\demo\cms\protected\modules\houtai\HoutaiModule.php:8
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods
+---
+2018/10/18 15:04:30 [error] [exception.ParseError] ParseError: syntax error, unexpected 'public' (T_PUBLIC) in C:\wnmp\www\demo\cms\protected\modules\houtai\HoutaiModule.php:8
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods
+---
+2018/10/18 15:04:30 [error] [exception.ParseError] ParseError: syntax error, unexpected 'public' (T_PUBLIC) in C:\wnmp\www\demo\cms\protected\modules\houtai\HoutaiModule.php:8
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods
+---
+2018/10/18 15:04:30 [error] [exception.ParseError] ParseError: syntax error, unexpected 'public' (T_PUBLIC) in C:\wnmp\www\demo\cms\protected\modules\houtai\HoutaiModule.php:8
+Stack trace:
+#0 C:\wnmp\www\demo\framework\YiiBase.php(196): YiiBase::import('houtai.HoutaiMo...', true)
+#1 C:\wnmp\www\demo\framework\base\CModule.php(282): YiiBase::createComponent(Array, 'houtai', NULL, Array)
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(337): CModule->getModule('houtai')
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/goods
+---
+2018/10/18 15:14:42 [error] [php] include(footer.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:1029)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (1029)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (1029)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:43:34 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index><i class=". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('index><i class=')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index><i class=')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index%3E%3Ci%20class=
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 01:43:36 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index><i class=". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('index><i class=')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index><i class=')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index%3E%3Ci%20class=
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index%3E%3Ci%20class=
+---
+2018/10/20 01:44:11 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index><i class=". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('index><i class=')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index><i class=')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index%3E%3Ci%20class=
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index%3E%3Ci%20class=
+---
+2018/10/20 01:46:33 [error] [php] include(../index/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:46:44 [error] [php] include(/index/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:47:01 [error] [php] include(../index/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:47:01 [error] [php] include(../index/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:48:49 [error] [php] include(../public/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:48:50 [error] [php] include(../public/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:48:50 [error] [php] include(../public/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:48:50 [error] [php] include(../public/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:48:50 [error] [php] include(../public/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:53:50 [error] [php] include(C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php../public/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:53:51 [error] [php] include(C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php../public/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:54:44 [error] [php] include(C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts../public/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:54:52 [error] [php] include(C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts/public/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:56:59 [error] [php] include(/public/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:57:21 [error] [php] include(/public/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:57:22 [error] [php] include(/public/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:57:22 [error] [php] include(/public/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 01:57:22 [error] [php] include(/public/head.php): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php:43)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): GoodsController->renderInternal()
+#1 C:\wnmp\www\demo\framework\web\CController.php(784): GoodsController->renderFile()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(5): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\layouts\layout.php (43)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (5)
+2018/10/20 02:14:50 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in C:\wnmp\www\demo\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\wnmp\www\demo\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wnmp\www\demo\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wnmp\www\demo\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wnmp\www\demo\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(4): CModule->__get('db')
+#5 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#6 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#10 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#11 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:30:53 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ',' or ')' in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:6
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CWebApplication.php(338): CWebApplication->createController('index/', Object(HoutaiModule))
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:30:59 [error] [exception.Error] Error: Call to a member function find() on null in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:6
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#1 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#6 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:32:02 [error] [exception.Error] Error: Call to a member function find() on null in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:6
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#1 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#6 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:32:02 [error] [exception.Error] Error: Call to a member function find() on null in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:6
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#1 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#6 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:32:03 [error] [exception.Error] Error: Call to a member function find() on null in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:6
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#1 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#6 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:32:03 [error] [exception.Error] Error: Call to a member function find() on null in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:6
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#1 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#6 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:37:08 [error] [exception.Error] Error: Call to a member function find() on null in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:6
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#1 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#6 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:37:09 [error] [exception.Error] Error: Call to a member function find() on null in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:6
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#1 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#6 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:37:09 [error] [exception.Error] Error: Call to a member function find() on null in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:6
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#1 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#6 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:37:09 [error] [exception.Error] Error: Call to a member function find() on null in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:6
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#1 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#6 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:37:09 [error] [exception.Error] Error: Call to a member function find() on null in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:6
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#1 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#6 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:37:09 [error] [exception.Error] Error: Call to a member function find() on null in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:6
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#1 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#6 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:42:13 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'demo.ecs_goods_info' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `ecs_goods_info`.
+in C:\wnmp\www\demo\cms\protected\models\Goods.php (8)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (4)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/20 02:42:13 [error] [exception.CDbException] CDbException: The table "{{goods_info}}" for active record class "Goods" cannot be found in the database. in C:\wnmp\www\demo\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\wnmp\www\demo\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(Goods))
+#1 C:\wnmp\www\demo\cms\protected\models\Goods.php(8): CActiveRecord::model('Goods')
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(4): Goods::model()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:49:59 [error] [exception.ParseError] ParseError: syntax error, unexpected '$this' (T_VARIABLE) in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:9
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CWebApplication.php(338): CWebApplication->createController('index/', Object(HoutaiModule))
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:50:13 [error] [exception.ParseError] ParseError: syntax error, unexpected '$this' (T_VARIABLE) in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:9
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CWebApplication.php(338): CWebApplication->createController('index/', Object(HoutaiModule))
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:50:20 [error] [exception.ParseError] ParseError: syntax error, unexpected '$this' (T_VARIABLE) in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:9
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CWebApplication.php(338): CWebApplication->createController('index/', Object(HoutaiModule))
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('goods/index/')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:52:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'. The SQL statement executed was: SELECT * FROM `ecs_erp_goods_info` `t` WHERE id > 10 and id < 100.
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (8)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/20 02:52:25 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'. The SQL statement executed was: SELECT * FROM `ecs_erp_goods_info` `t` WHERE id > 10 and id < 100 in C:\wnmp\www\demo\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wnmp\www\demo\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wnmp\www\demo\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 C:\wnmp\www\demo\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(8): CActiveRecord->findAll('id > 10 and id ...')
+#4 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#5 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#9 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#10 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 02:59:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `ecs_erp_goods_info` `t` WHERE (goods_id > 1430) AND (goods_id < :id).
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (14)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/20 02:59:57 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `ecs_erp_goods_info` `t` WHERE (goods_id > 1430) AND (goods_id < :id) in C:\wnmp\www\demo\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\wnmp\www\demo\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wnmp\www\demo\framework\db\ar\CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 C:\wnmp\www\demo\framework\db\ar\CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(14): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#5 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#9 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#10 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 03:21:18 [error] [exception.Error] Error: Call to a member function delete() on null in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php:58
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#1 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#6 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 04:45:45 [error] [exception.ParseError] ParseError: syntax error, unexpected '>' in C:\wnmp\www\demo\cms\protected\modules\houtai\views\goods\index.php:38
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wnmp\\www\\dem...', Array, true)
+#1 C:\wnmp\www\demo\framework\web\CController.php(869): CBaseController->renderFile('C:\\wnmp\\www\\dem...', Array, true)
+#2 C:\wnmp\www\demo\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#3 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(67): CController->render('index', Array)
+#4 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#5 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#9 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#10 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 04:45:57 [error] [exception.ParseError] ParseError: syntax error, unexpected '>' in C:\wnmp\www\demo\cms\protected\modules\houtai\views\goods\index.php:38
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wnmp\\www\\dem...', Array, true)
+#1 C:\wnmp\www\demo\framework\web\CController.php(869): CBaseController->renderFile('C:\\wnmp\\www\\dem...', Array, true)
+#2 C:\wnmp\www\demo\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#3 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(67): CController->render('index', Array)
+#4 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#5 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('index')
+#9 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/in...')
+#10 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=houtai/goods/index
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 05:16:09 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "addGood". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('addGood')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('addGood')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/goods/addGood
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 05:27:46 [error] [exception.CException] CException: IndexController cannot find the requested view "index". in C:\wnmp\www\demo\framework\web\CController.php:878
+Stack trace:
+#0 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\IndexController.php(13): CController->renderPartial('index')
+#1 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): IndexController->actionIndex()
+#2 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index')
+#7 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=houtai/index
+---
+2018/10/20 05:27:52 [error] [exception.CException] CException: IndexController cannot find the requested view "index". in C:\wnmp\www\demo\framework\web\CController.php:878
+Stack trace:
+#0 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\IndexController.php(13): CController->renderPartial('index')
+#1 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): IndexController->actionIndex()
+#2 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/index')
+#7 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=houtai/index
+---
+2018/10/20 07:50:29 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1364 Field 'supplier_id' doesn't have a default value. The SQL statement executed was: INSERT INTO `ecs_erp_goods_info` (`cat_id`, `goods_name`, `brand_id`, `goods_thumb`, `goods_img`, `original_img`, `add_time`, `is_delete`, `last_update`, `goods_type`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9).
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (82)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/20 07:50:29 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1364 Field 'supplier_id' doesn't have a default value. The SQL statement executed was: INSERT INTO `ecs_erp_goods_info` (`cat_id`, `goods_name`, `brand_id`, `goods_thumb`, `goods_img`, `original_img`, `add_time`, `is_delete`, `last_update`, `goods_type`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9) in C:\wnmp\www\demo\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wnmp\www\demo\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\wnmp\www\demo\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(82): CActiveRecord->save()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionAddGood()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('addGood')
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/goods/ad...')
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=houtai/goods/addGood
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/20 08:00:36 [error] [php] Undefined offset: 100 (C:\wnmp\www\demo\cms\protected\modules\houtai\views\goods\index.php:50)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(869): GoodsController->renderFile()
+#1 C:\wnmp\www\demo\framework\web\CController.php(782): GoodsController->renderPartial()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(75): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\goods\index.php (50)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (75)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/20 08:00:59 [error] [php] Undefined offset: 100 (C:\wnmp\www\demo\cms\protected\modules\houtai\views\goods\index.php:50)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(869): GoodsController->renderFile()
+#1 C:\wnmp\www\demo\framework\web\CController.php(782): GoodsController->renderPartial()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(75): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\goods\index.php (50)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (75)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/20 08:01:47 [error] [php] Undefined offset: 100 (C:\wnmp\www\demo\cms\protected\modules\houtai\views\goods\index.php:50)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(869): GoodsController->renderFile()
+#1 C:\wnmp\www\demo\framework\web\CController.php(782): GoodsController->renderPartial()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(75): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\goods\index.php (50)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (75)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/20 08:02:14 [error] [php] Undefined offset: 100 (C:\wnmp\www\demo\cms\protected\modules\houtai\views\goods\index.php:50)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(869): GoodsController->renderFile()
+#1 C:\wnmp\www\demo\framework\web\CController.php(782): GoodsController->renderPartial()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php(75): GoodsController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): GoodsController->actionIndex()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): GoodsController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): GoodsController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): GoodsController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/goods/index
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\goods\index.php (50)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\GoodsController.php (75)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 02:59:13 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "add_brand". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('add_brand')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('add_brand')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/add_brand
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/addGood
+---
+2018/10/21 02:59:38 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "add_brand". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('add_brand')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('add_brand')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/add_brand
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/add_brand
+---
+2018/10/21 02:59:41 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "add_brand". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('add_brand')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('add_brand')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/add_brand
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/add_brand
+---
+2018/10/21 02:59:45 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "add_brand". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('add_brand')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('add_brand')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/add_brand
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/add_brand
+---
+2018/10/21 02:59:52 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "add_brand". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('add_brand')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('add_brand')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/add_brand
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/add_brand
+---
+2018/10/21 02:59:53 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "add_brand". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('add_brand')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('add_brand')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/add_brand
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/add_brand
+---
+2018/10/21 03:00:05 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "add_brand". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('add_brand')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('add_brand')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/add_brand
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/21 03:00:22 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "add_brand". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('add_brand')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('add_brand')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/add_brand
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/goods/index
+---
+2018/10/21 05:48:47 [error] [php] move_uploaded_file(uploads/QQ图片20181021124253.jpg): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php:9)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): ImageController->runAction()
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): ImageController->run()
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/Image/upload
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php (9)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 05:51:04 [error] [php] move_uploaded_file(dist/img/upload/uploads/QQ图片20181021124253.jpg): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php:9)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): ImageController->runAction()
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): ImageController->run()
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/Image/upload
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php (9)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 05:51:49 [error] [php] move_uploaded_file(dist/img/upload/uploads/QQ图片20181021124253.jpg): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php:9)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): ImageController->runAction()
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): ImageController->run()
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/Image/upload
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php (9)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 05:53:02 [error] [php] move_uploaded_file(dist/img/upload/uploads/QQ图片20181021124253.jpg): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php:9)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): ImageController->runAction()
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): ImageController->run()
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/Image/upload
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php (9)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 05:55:24 [error] [php] move_uploaded_file(http://www.demo.com/assets/houtai/dist/img/upload/QQ图片20181021124253.jpg): failed to open stream: HTTP wrapper does not support writeable connections (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php:8)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): ImageController->runAction()
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): ImageController->run()
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/Image/upload
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php (8)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 06:04:47 [error] [php] move_uploaded_file(http://www.demo.com/assets/houtai/dist/img/upload/QQ图片20181021124253.jpg): failed to open stream: HTTP wrapper does not support writeable connections (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php:12)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): ImageController->runAction()
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): ImageController->run()
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/Image/upload
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php (12)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 06:10:00 [error] [php] Undefined index: file (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php:4)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(286): ImageController->runAction()
+#1 C:\wnmp\www\demo\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): ImageController->run()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/Image/upload
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php (4)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 06:10:06 [error] [php] Undefined index: file (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php:4)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(286): ImageController->runAction()
+#1 C:\wnmp\www\demo\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): ImageController->run()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/Image/upload
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php (4)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 06:10:17 [error] [php] Undefined index: file (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php:4)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(286): ImageController->runAction()
+#1 C:\wnmp\www\demo\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): ImageController->run()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/Image/upload
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php (4)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 06:22:07 [error] [php] move_uploaded_file(http://www.demo.com/assets/houtai/dist/img/upload/QQ图片20181021124253.jpg): failed to open stream: HTTP wrapper does not support writeable connections (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php:12)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): ImageController->runAction()
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): ImageController->run()
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/Image/upload
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php (12)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 06:29:27 [error] [php] move_uploaded_file(C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php../../../../assets/houtai/dist/img/upload/QQ图片20181021124253.jpg): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php:8)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): ImageController->runAction()
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): ImageController->run()
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/Image/upload
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php (8)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 06:30:41 [error] [php] Use of undefined constant __FILE - assumed '__FILE' (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php:7)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(286): ImageController->runAction()
+#1 C:\wnmp\www\demo\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): ImageController->run()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/Image/upload
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php (7)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 06:30:53 [error] [php] move_uploaded_file(C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php../../../../assets/houtai/dist/img/upload/QQ图片20181021124253.jpg): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php:9)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): ImageController->runAction()
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): ImageController->run()
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/Image/upload
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php (9)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 06:31:04 [error] [php] move_uploaded_file(C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php../../../../assets/houtai/dist/img/upload/QQ图片20181021124253.jpg): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php:9)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): ImageController->runAction()
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): ImageController->run()
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/Image/upload
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php (9)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 06:32:34 [error] [php] move_uploaded_file(/assets/houtai/dist/img/upload/QQ图片20181021124253.jpg): failed to open stream: No such file or directory (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php:9)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): ImageController->runAction()
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): ImageController->run()
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/Image/upload
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\ImageController.php (9)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 12:31:05 [error] [php] Undefined variable: brand_model (C:\wnmp\www\demo\cms\protected\modules\houtai\views\brand\add_brand.php:38)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(869): BrandController->renderFile()
+#1 C:\wnmp\www\demo\framework\web\CController.php(782): BrandController->renderPartial()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php(10): BrandController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): BrandController->actionAddBrand()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): BrandController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): BrandController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/brand/addBrand
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\brand\add_brand.php (38)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php (10)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 13:05:01 [error] [php] Undefined variable: brand_model (C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php:18)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(286): BrandController->runAction()
+#1 C:\wnmp\www\demo\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): BrandController->run()
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/brand/addBrand
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php (18)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 13:08:07 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1364 Field 'brand_banner' doesn't have a default value. The SQL statement executed was: INSERT INTO `ecs_erp_brand` (`brand_name`, `brand_region`, `brand_logo`, `site_url`, `supplier`, `sort_order`, `is_show`, `is_delete`, `brand_desc`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8). Bound with :yp0='侧睡名称', :yp1=0, :yp2='/assets/houtai/dist/img/upload/five_cents.png', :yp3='', :yp4='无', :yp5=50, :yp6=1, :yp7=0, :yp8='<p>品牌描述</p>'.
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php (16)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 13:08:07 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1364 Field 'brand_banner' doesn't have a default value. The SQL statement executed was: INSERT INTO `ecs_erp_brand` (`brand_name`, `brand_region`, `brand_logo`, `site_url`, `supplier`, `sort_order`, `is_show`, `is_delete`, `brand_desc`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8). Bound with :yp0='侧睡名称', :yp1=0, :yp2='/assets/houtai/dist/img/upload/five_cents.png', :yp3='', :yp4='无', :yp5=50, :yp6=1, :yp7=0, :yp8='<p>品牌描述</p>' in C:\wnmp\www\demo\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wnmp\www\demo\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\wnmp\www\demo\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php(16): CActiveRecord->save()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): BrandController->actionAddBrand()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('addBrand')
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=houtai/brand/addBrand
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/addBrand
+---
+2018/10/21 13:08:23 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1364 Field 'brand_banner' doesn't have a default value. The SQL statement executed was: INSERT INTO `ecs_erp_brand` (`brand_name`, `brand_region`, `brand_logo`, `site_url`, `supplier`, `sort_order`, `is_show`, `is_delete`, `brand_desc`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8). Bound with :yp0='魅力凯秀', :yp1=0, :yp2='/assets/houtai/dist/img/upload/five.png', :yp3='', :yp4='无', :yp5=50, :yp6=1, :yp7=0, :yp8='<p><em>放大放到</em><br/></p>'.
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php (16)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/21 13:08:23 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1364 Field 'brand_banner' doesn't have a default value. The SQL statement executed was: INSERT INTO `ecs_erp_brand` (`brand_name`, `brand_region`, `brand_logo`, `site_url`, `supplier`, `sort_order`, `is_show`, `is_delete`, `brand_desc`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8). Bound with :yp0='魅力凯秀', :yp1=0, :yp2='/assets/houtai/dist/img/upload/five.png', :yp3='', :yp4='无', :yp5=50, :yp6=1, :yp7=0, :yp8='<p><em>放大放到</em><br/></p>' in C:\wnmp\www\demo\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wnmp\www\demo\framework\db\ar\CActiveRecord.php(1023): CDbCommand->execute()
+#1 C:\wnmp\www\demo\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php(16): CActiveRecord->save()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): BrandController->actionAddBrand()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('addBrand')
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=houtai/brand/addBrand
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/addBrand
+---
+2018/10/21 13:24:32 [error] [exception.ParseError] ParseError: syntax error, unexpected '}' in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php:19
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CWebApplication.php(338): CWebApplication->createController('addBrand/', Object(HoutaiModule))
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('brand/addBrand/')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/addBrand
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/addBrand
+---
+2018/10/23 13:20:05 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "brand_list". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('brand_list')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('brand_list')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/br...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/brand_list
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/addBrand
+---
+2018/10/23 13:20:52 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "brand_list". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('brand_list')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('brand_list')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/br...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/brand_list
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/addBrand
+---
+2018/10/23 13:20:55 [error] [php] Invalid argument supplied for foreach() (C:\wnmp\www\demo\cms\protected\modules\houtai\views\brand\brand_list.php:46)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(869): BrandController->renderFile()
+#1 C:\wnmp\www\demo\framework\web\CController.php(782): BrandController->renderPartial()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php(5): BrandController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): BrandController->actionBrandList()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): BrandController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): BrandController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/brand/brandList
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\brand\brand_list.php (46)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php (5)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/23 13:21:00 [error] [php] Invalid argument supplied for foreach() (C:\wnmp\www\demo\cms\protected\modules\houtai\views\brand\brand_list.php:46)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(869): BrandController->renderFile()
+#1 C:\wnmp\www\demo\framework\web\CController.php(782): BrandController->renderPartial()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php(5): BrandController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): BrandController->actionBrandList()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): BrandController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): BrandController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/brand/brandList
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\brand\brand_list.php (46)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php (5)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/23 13:22:03 [error] [php] Undefined variable: data (C:\wnmp\www\demo\cms\protected\modules\houtai\views\brand\brand_list.php:46)
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(869): BrandController->renderFile()
+#1 C:\wnmp\www\demo\framework\web\CController.php(782): BrandController->renderPartial()
+#2 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php(6): BrandController->render()
+#3 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): BrandController->actionBrandList()
+#4 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wnmp\www\demo\framework\web\CController.php(286): BrandController->runAction()
+#6 C:\wnmp\www\demo\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#7 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): BrandController->run()
+#8 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wnmp\www\demo\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=houtai/brand/brandList
+in C:\wnmp\www\demo\cms\protected\modules\houtai\views\brand\brand_list.php (46)
+in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php (6)
+in C:\wnmp\www\demo\cms\index.php (13)
+2018/10/23 13:22:12 [error] [exception.CException] CException: Property "Brand.goods_name" is not defined. in C:\wnmp\www\demo\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wnmp\www\demo\framework\db\ar\CActiveRecord.php(143): CComponent->__get('goods_name')
+#1 C:\wnmp\www\demo\cms\protected\modules\houtai\views\brand\brand_list.php(49): CActiveRecord->__get('goods_name')
+#2 C:\wnmp\www\demo\framework\web\CBaseController.php(126): require('C:\\wnmp\\www\\dem...')
+#3 C:\wnmp\www\demo\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wnmp\\www\\dem...', Array, true)
+#4 C:\wnmp\www\demo\framework\web\CController.php(869): CBaseController->renderFile('C:\\wnmp\\www\\dem...', Array, true)
+#5 C:\wnmp\www\demo\framework\web\CController.php(782): CController->renderPartial('brand_list', Array, true)
+#6 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php(6): CController->render('brand_list', Array)
+#7 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): BrandController->actionBrandList()
+#8 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('brandList')
+#12 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/br...')
+#13 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=houtai/brand/brandList
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/brand_list
+---
+2018/10/23 13:37:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "houtai/EditBrand/103". in C:\wnmp\www\demo\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/EditBran...')
+#1 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=houtai/EditBrand/103
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/brandList
+---
+2018/10/23 13:38:07 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\wnmp\www\demo\framework\web\CController.php:336
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('EditBrand')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/Brand/Ed...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/Brand/EditBrand/103
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/brandList
+---
+2018/10/23 13:38:46 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\wnmp\www\demo\framework\web\CController.php:336
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('editBrand')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/Brand/ed...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/Brand/editBrand/103
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/brandList
+---
+2018/10/23 13:38:50 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\wnmp\www\demo\framework\web\CController.php:336
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('editBrand')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/Brand/ed...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/Brand/editBrand/103
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/brandList
+---
+2018/10/23 13:39:13 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\wnmp\www\demo\framework\web\CController.php:336
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('editBrand')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ed...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/brand/editBrand/103
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/brandList
+---
+2018/10/23 13:40:04 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\wnmp\www\demo\framework\web\CController.php:336
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wnmp\www\demo\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('editBrand')
+#4 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ed...')
+#5 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=houtai/brand/editBrand/103
+---
+2018/11/03 12:11:50 [error] [exception.CException] CException: CWebApplication and its behaviors do not have a method or closure named "getFlash". in C:\wnmp\www\demo\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\wnmp\www\demo\cms\protected\modules\houtai\views\brand\brand_list.php(131): CComponent->__call('getFlash', Array)
+#1 C:\wnmp\www\demo\framework\web\CBaseController.php(126): require('C:\\wnmp\\www\\dem...')
+#2 C:\wnmp\www\demo\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wnmp\\www\\dem...', Array, true)
+#3 C:\wnmp\www\demo\framework\web\CController.php(869): CBaseController->renderFile('C:\\wnmp\\www\\dem...', Array, true)
+#4 C:\wnmp\www\demo\framework\web\CController.php(782): CController->renderPartial('brand_list', Array, true)
+#5 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php(44): CController->render('brand_list', Array)
+#6 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(49): BrandController->actionBrandList()
+#7 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wnmp\www\demo\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\wnmp\www\demo\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wnmp\www\demo\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\wnmp\www\demo\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\wnmp\www\demo\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\wnmp\www\demo\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('brandList')
+#16 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/br...')
+#17 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php?r=houtai/brand/brandList
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/addBrand
+---
+2018/11/03 12:13:14 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on null in C:\wnmp\www\demo\framework\web\helpers\CHtml.php:1237
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\widgets\CActiveForm.php(562): CHtml::activeLabelEx(NULL, 'brand_name', Array)
+#1 C:\wnmp\www\demo\cms\protected\modules\houtai\views\brand\edit_brand.php(38): CActiveForm->labelEx(NULL, 'brand_name', Array)
+#2 C:\wnmp\www\demo\framework\web\CBaseController.php(126): require('C:\\wnmp\\www\\dem...')
+#3 C:\wnmp\www\demo\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wnmp\\www\\dem...', Array, true)
+#4 C:\wnmp\www\demo\framework\web\CController.php(869): CBaseController->renderFile('C:\\wnmp\\www\\dem...', Array, true)
+#5 C:\wnmp\www\demo\framework\web\CController.php(782): CController->renderPartial('edit_brand', Array, true)
+#6 C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\BrandController.php(86): CController->render('edit_brand', Array)
+#7 [internal function]: BrandController->actionEditBrand(401)
+#8 C:\wnmp\www\demo\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(BrandController), Array)
+#9 C:\wnmp\www\demo\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BrandController), Object(ReflectionMethod), Array)
+#10 C:\wnmp\www\demo\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wnmp\www\demo\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\wnmp\www\demo\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\wnmp\www\demo\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\wnmp\www\demo\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wnmp\www\demo\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wnmp\www\demo\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\wnmp\www\demo\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('editBrand')
+#19 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ed...')
+#20 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=houtai/brand/editBrand/brand_id/401
+HTTP_REFERER=http://www.demo.com/index.php?r=houtai/brand/brandList
+---
+2018/11/03 13:20:42 [error] [exception.ParseError] ParseError: syntax error, unexpected '{', expecting '(' in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\TestController.php:26
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CWebApplication.php(338): CWebApplication->createController('detail/', Object(HoutaiModule))
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('Test/detail/')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/Test/det...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/Test/detail
+---
+2018/11/03 13:20:56 [error] [exception.ParseError] ParseError: syntax error, unexpected '{', expecting '(' in C:\wnmp\www\demo\cms\protected\modules\houtai\controllers\TestController.php:26
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CWebApplication.php(338): CWebApplication->createController('detail/', Object(HoutaiModule))
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(276): CWebApplication->createController('Test/detail/')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/Test/det...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/Test/detail
+---
+2018/11/03 14:27:44 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "add". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('add')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('add')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/add
+---
+2018/11/03 14:32:36 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "add". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('add')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('add')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/add
+---
+2018/11/03 14:32:38 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "add". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('add')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('add')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/add
+---
+2018/11/03 14:34:00 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "add". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('add')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('add')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/add
+---
+2018/11/03 14:34:02 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "add". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('add')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('add')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/add
+---
+2018/11/03 14:34:03 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "add". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('add')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('add')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/add
+---
+2018/11/03 14:34:07 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "ad2". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('ad2')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('ad2')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/ad2
+---
+2018/11/03 14:35:01 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "ad2". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('ad2')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('ad2')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/ad2
+---
+2018/11/03 14:35:04 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "ad2". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('ad2')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('ad2')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/ad2
+---
+2018/11/03 14:37:01 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "ad2". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('ad2')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('ad2')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/ad2
+---
+2018/11/03 14:37:02 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "ad2". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('ad2')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('ad2')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/ad2
+---
+2018/11/03 14:38:14 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "ad2". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('ad2')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('ad2')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/ad2
+---
+2018/11/03 14:38:28 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "ad2". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('ad2')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('ad2')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/ad...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/ad2
+---
+2018/11/03 14:38:31 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:38:47 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:39:00 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:39:28 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:39:29 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:39:29 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:39:29 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:40:01 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:40:02 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:40:24 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:40:25 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:40:25 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:40:50 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:40:51 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:40:51 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:40:51 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:40:51 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:41:06 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:41:30 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:41:31 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:41:31 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:41:32 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:42:08 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:43:00 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:44:21 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:48:46 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:50:51 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:50:59 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:51:08 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:51:56 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---
+2018/11/03 14:52:15 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "a656". in C:\wnmp\www\demo\framework\web\CController.php:483
+Stack trace:
+#0 C:\wnmp\www\demo\framework\web\CController.php(270): CController->missingAction('a656')
+#1 C:\wnmp\www\demo\framework\web\CWebApplication.php(282): CController->run('a656')
+#2 C:\wnmp\www\demo\framework\web\CWebApplication.php(141): CWebApplication->runController('houtai/brand/a6...')
+#3 C:\wnmp\www\demo\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wnmp\www\demo\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=houtai/brand/a656
+---

@@ -1,0 +1,21 @@
+.login-page{
+	background-color: #666666;
+	background-image: url("/assets/houtai/dist/img/bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-size: cover;
+	background-origin: padding-box;
+	width: 100%;
+	padding: 0;
+}
+
+.login-logo a,
+.register-logo a {
+  color: #FFF;
+}
+
+#remember{
+	vertical-align: middle;
+}

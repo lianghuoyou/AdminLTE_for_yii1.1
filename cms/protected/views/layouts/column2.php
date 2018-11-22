@@ -1,0 +1,2 @@
+lingwai
+<?php echo $content; ?>
